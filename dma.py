@@ -3,7 +3,7 @@ import json
 import argparse
 from datetime import datetime, timedelta
 
-with open('mapping_dict.json', 'r') as f:
+with open('symbols.json', 'r') as f:
     mapping_dict = json.load(f)
 
 date_format = '%Y-%m-%d'
